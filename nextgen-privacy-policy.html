@@ -30,6 +30,7 @@ table{border-collapse:collapse;width:100%;min-width:480px;font-size:15.5px}
 th,td{text-align:left;padding:10px 14px;border-bottom:1px solid var(--line);vertical-align:top}
 th{background:var(--ink);color:var(--bg);font-weight:600}
 tr:last-child td{border-bottom:0}
+.note{border-left:4px solid var(--accent);background:var(--surface);padding:12px 16px;margin:16px 0;border-radius:0 6px 6px 0}
 footer{margin-top:56px;padding-top:20px;border-top:1px solid var(--line);color:var(--muted);font-size:14px}
 </style>
 </head>
@@ -44,59 +45,58 @@ footer{margin-top:56px;padding-top:20px;border-top:1px solid var(--line);color:v
 <p class="eff">Effective date: October 18, 2026</p>
 
 <h2>1. Introduction</h2>
-<p>This Privacy Policy explains what information the NextGen Discord bot (&ldquo;NextGen,&rdquo; &ldquo;the Bot,&rdquo; &ldquo;we,&rdquo; &ldquo;us&rdquo;) collects, how it is used, and the choices you have. By using NextGen, you agree to the practices described here.</p>
+<p>This Privacy Policy explains what information NextGen (&ldquo;NextGen,&rdquo; &ldquo;the Software,&rdquo; &ldquo;we,&rdquo; &ldquo;us&rdquo;) collects, how it is used, and the choices you have. By using NextGen, you agree to the practices described here.</p>
 
 <h2>2. Information We Collect</h2>
-<p>NextGen is designed to collect as little personal information as possible. Depending on how the Bot is used, we may process:</p>
+<p>NextGen is designed to collect as little personal information as possible. Most processing happens on your own computer. Depending on how you use the Software, the following may be involved:</p>
 <div class="tbl"><table>
-<thead><tr><th>Data type</th><th>Why it&rsquo;s collected</th></tr></thead>
+<thead><tr><th>Data type</th><th>Why it&rsquo;s used</th><th>Where it goes</th></tr></thead>
 <tbody>
-<tr><td>Discord user ID</td><td>To identify who issued a command (e.g. skip, queue, volume)</td></tr>
-<tr><td>Server (guild) ID and voice/text channel IDs</td><td>To know where to play audio and respond to commands</td></tr>
-<tr><td>Command name and timestamp</td><td>Basic logging for debugging and abuse prevention</td></tr>
-<tr><td>Song/queue requests (track titles, URLs)</td><td>To build and play the playback queue</td></tr>
+<tr><td>System information (Windows version, CPU, GPU, RAM, installed drivers)</td><td>To detect your hardware and show which tweaks apply to it</td><td>Read locally; not sent to us unless you submit a diagnostics report</td></tr>
+<tr><td>Your settings and applied tweaks</td><td>To remember your choices and let you undo changes</td><td>Stored locally on your PC</td></tr>
+<tr><td>Crash and error reports (optional)</td><td>To find and fix bugs</td><td>Sent to us only if you choose to submit them</td></tr>
+<tr><td>Contact details and messages you send us</td><td>To reply to support requests</td><td>Held in our email or support system</td></tr>
 </tbody></table></div>
-<p>We do not read, store, or log the content of your Discord messages beyond the command text itself, and we do not record or store voice channel audio.</p>
+<p>We do not scan, upload, or read your personal files, browsing history, passwords, or documents.</p>
 
 <h2>3. How We Use Information</h2>
 <ul>
-<li>To operate core features such as playing, queuing, and skipping tracks;</li>
-<li>To maintain per-server settings (e.g. default volume, DJ role);</li>
-<li>To diagnose errors and prevent abuse of the Bot;</li>
-<li>To improve reliability and performance over time.</li>
+<li>To run core features such as detecting hardware, applying tweaks, and restoring settings;</li>
+<li>To diagnose errors and improve reliability and performance;</li>
+<li>To respond to your support requests;</li>
+<li>To keep the Software and its distribution secure and prevent abuse.</li>
 </ul>
 <p>We do not sell personal information, and we do not use your data for advertising.</p>
 
 <h2>4. Data Sharing and Third Parties</h2>
-<p>To function, NextGen communicates with:</p>
+<p>We do not share your data with third parties for their own marketing purposes. Limited information may be handled by:</p>
 <ul>
-<li><strong>Discord</strong>, via its official API, to receive commands and send responses;</li>
-<li><strong>Music sources</strong> such as YouTube and Spotify, to fetch audio and track metadata requested by users;</li>
-<li><strong>Our hosting provider</strong>, which stores server infrastructure and any logs described above.</li>
+<li><strong>Hosting and download providers</strong>, which serve our website and installer files and may log technical data such as IP addresses and browser type;</li>
+<li><strong>Email and support tools</strong>, which carry the messages you send us;</li>
+<li><strong>Authorities</strong>, where we are legally required to disclose information.</li>
 </ul>
-<p>We do not share your data with third parties for their own marketing purposes.</p>
 
 <h2>5. Data Retention</h2>
-<p>Playback queue data is held in memory only and is cleared when the queue ends or the Bot restarts. Per-server settings persist until a server administrator removes the Bot or requests deletion. Debug logs are retained for a limited period (typically no longer than 30 days) before being automatically deleted.</p>
+<p>Settings and tweak history stay on your device until you delete them or uninstall the Software. Diagnostic reports and support messages are kept only as long as needed to resolve the issue, typically no longer than 12 months, and are then deleted. Hosting logs are kept according to our hosting provider&rsquo;s own policies.</p>
 
 <h2>6. Data Security</h2>
-<p>We take reasonable technical measures to protect the limited data NextGen processes. However, no method of electronic storage or transmission is 100% secure, and we cannot guarantee absolute security.</p>
+<p>We take reasonable technical measures to protect the limited data we handle. However, no method of electronic storage or transmission is 100% secure, and we cannot guarantee absolute security.</p>
 
 <h2>7. Children&rsquo;s Privacy</h2>
-<p>NextGen is intended for use in accordance with Discord&rsquo;s own age requirements. We do not knowingly collect personal information from children under the age permitted by Discord&rsquo;s Terms of Service.</p>
+<p>NextGen is not directed at children under 13, and we do not knowingly collect personal information from them. If you believe a child has sent us personal information, contact us and we will delete it.</p>
 
 <h2>8. Your Rights</h2>
-<p>Depending on your location, you may have the right to request access to, correction of, or deletion of data associated with your Discord user ID. To make a request, contact us at <a href="mailto:YOUR-EMAIL-HERE">YOUR-EMAIL-HERE</a> and we will respond within a reasonable time.</p>
+<p>Depending on your location, you may have the right to request access to, correction of, or deletion of personal information we hold about you. To make a request, contact us at <a href="mailto:YOUR-EMAIL-HERE">YOUR-EMAIL-HERE</a> or via our <a href="YOUR-SUPPORT-LINK">support page</a> and we will respond within a reasonable time.</p>
 
 <h2>9. Changes to This Policy</h2>
 <p>We may update this Privacy Policy from time to time. Material changes will be reflected by updating the effective date above. Continued use of NextGen after changes take effect constitutes acceptance of the revised policy.</p>
 
 <h2>10. Contact Us</h2>
-<p>For privacy questions or data requests, contact <a href="mailto:YOUR-EMAIL-HERE">YOUR-EMAIL-HERE</a> or via our <a href="YOUR-SUPPORT-SERVER-LINK">support server</a>.</p>
+<p>For privacy questions or data requests, contact <a href="mailto:YOUR-EMAIL-HERE">YOUR-EMAIL-HERE</a> or via our <a href="YOUR-SUPPORT-LINK">support page</a>.</p>
 <p>See also our <a href="nextgen-terms-of-service.html">Terms of Service</a>.</p>
 
 </main>
-<footer>NextGen Bot &middot; Privacy Policy</footer>
+<footer>NextGen &middot; Privacy Policy</footer>
 </div>
 </body>
 </html>
