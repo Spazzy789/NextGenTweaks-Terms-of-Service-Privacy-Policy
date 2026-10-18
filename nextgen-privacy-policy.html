@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>NextGen — Privacy Policy</title>
+<style>
+:root{--bg:#f0fbfd;--ink:#081b32;--muted:#4a6178;--line:#c9e3ea;--surface:#ffffff;--accent:#0b5fa5}
+@media (prefers-color-scheme:dark){:root{--bg:#061321;--ink:#e6f4f8;--muted:#9bb3c4;--line:#17324a;--surface:#0b1d30;--accent:#6cc4ee}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.7 "Segoe UI",system-ui,-apple-system,Helvetica,Arial,sans-serif;padding:env(safe-area-inset-top,0) 0 env(safe-area-inset-bottom,0)}
+.wrap{max-width:760px;margin:0 auto;padding:40px 22px 64px}
+header{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;padding-bottom:22px;border-bottom:2px solid var(--ink)}
+header img{height:44px;width:auto;display:block}
+@media (prefers-color-scheme:dark){header img{filter:invert(1) hue-rotate(180deg)}}
+nav a{color:var(--muted);text-decoration:none;margin-left:18px;font-size:15px}
+nav a[aria-current]{color:var(--ink);font-weight:600;border-bottom:2px solid var(--accent)}
+nav a:hover{color:var(--accent)}
+h1{font-size:2.3rem;line-height:1.15;margin:40px 0 6px;letter-spacing:-.02em}
+.eff{color:var(--muted);margin:0 0 32px;font-size:15px}
+h2{font-size:1.2rem;margin:36px 0 8px;letter-spacing:-.01em}
+p,li{max-width:68ch}
+ul{padding-left:1.2em}
+li{margin:6px 0}
+a{color:var(--accent)}
+a:focus-visible{outline:3px solid var(--accent);outline-offset:2px;border-radius:2px}
+.tbl{overflow-x:auto;margin:14px 0;border:1px solid var(--line);border-radius:6px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;min-width:480px;font-size:15.5px}
+th,td{text-align:left;padding:10px 14px;border-bottom:1px solid var(--line);vertical-align:top}
+th{background:var(--ink);color:var(--bg);font-weight:600}
+tr:last-child td{border-bottom:0}
+footer{margin-top:56px;padding-top:20px;border-top:1px solid var(--line);color:var(--muted);font-size:14px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+<img src="nextgen-logo.png" alt="NextGen">
+<nav><a href="nextgen-terms-of-service.html">Terms of Service</a><a href="nextgen-privacy-policy.html" aria-current="page">Privacy Policy</a></nav>
+</header>
+<main>
+<h1>Privacy Policy</h1>
+<p class="eff">Effective date: October 18, 2026</p>
+
+<h2>1. Introduction</h2>
+<p>This Privacy Policy explains what information the NextGen Discord bot (&ldquo;NextGen,&rdquo; &ldquo;the Bot,&rdquo; &ldquo;we,&rdquo; &ldquo;us&rdquo;) collects, how it is used, and the choices you have. By using NextGen, you agree to the practices described here.</p>
+
+<h2>2. Information We Collect</h2>
+<p>NextGen is designed to collect as little personal information as possible. Depending on how the Bot is used, we may process:</p>
+<div class="tbl"><table>
+<thead><tr><th>Data type</th><th>Why it&rsquo;s collected</th></tr></thead>
+<tbody>
+<tr><td>Discord user ID</td><td>To identify who issued a command (e.g. skip, queue, volume)</td></tr>
+<tr><td>Server (guild) ID and voice/text channel IDs</td><td>To know where to play audio and respond to commands</td></tr>
+<tr><td>Command name and timestamp</td><td>Basic logging for debugging and abuse prevention</td></tr>
+<tr><td>Song/queue requests (track titles, URLs)</td><td>To build and play the playback queue</td></tr>
+</tbody></table></div>
+<p>We do not read, store, or log the content of your Discord messages beyond the command text itself, and we do not record or store voice channel audio.</p>
+
+<h2>3. How We Use Information</h2>
+<ul>
+<li>To operate core features such as playing, queuing, and skipping tracks;</li>
+<li>To maintain per-server settings (e.g. default volume, DJ role);</li>
+<li>To diagnose errors and prevent abuse of the Bot;</li>
+<li>To improve reliability and performance over time.</li>
+</ul>
+<p>We do not sell personal information, and we do not use your data for advertising.</p>
+
+<h2>4. Data Sharing and Third Parties</h2>
+<p>To function, NextGen communicates with:</p>
+<ul>
+<li><strong>Discord</strong>, via its official API, to receive commands and send responses;</li>
+<li><strong>Music sources</strong> such as YouTube and Spotify, to fetch audio and track metadata requested by users;</li>
+<li><strong>Our hosting provider</strong>, which stores server infrastructure and any logs described above.</li>
+</ul>
+<p>We do not share your data with third parties for their own marketing purposes.</p>
+
+<h2>5. Data Retention</h2>
+<p>Playback queue data is held in memory only and is cleared when the queue ends or the Bot restarts. Per-server settings persist until a server administrator removes the Bot or requests deletion. Debug logs are retained for a limited period (typically no longer than 30 days) before being automatically deleted.</p>
+
+<h2>6. Data Security</h2>
+<p>We take reasonable technical measures to protect the limited data NextGen processes. However, no method of electronic storage or transmission is 100% secure, and we cannot guarantee absolute security.</p>
+
+<h2>7. Children&rsquo;s Privacy</h2>
+<p>NextGen is intended for use in accordance with Discord&rsquo;s own age requirements. We do not knowingly collect personal information from children under the age permitted by Discord&rsquo;s Terms of Service.</p>
+
+<h2>8. Your Rights</h2>
+<p>Depending on your location, you may have the right to request access to, correction of, or deletion of data associated with your Discord user ID. To make a request, contact us at <a href="mailto:YOUR-EMAIL-HERE">YOUR-EMAIL-HERE</a> and we will respond within a reasonable time.</p>
+
+<h2>9. Changes to This Policy</h2>
+<p>We may update this Privacy Policy from time to time. Material changes will be reflected by updating the effective date above. Continued use of NextGen after changes take effect constitutes acceptance of the revised policy.</p>
+
+<h2>10. Contact Us</h2>
+<p>For privacy questions or data requests, contact <a href="mailto:YOUR-EMAIL-HERE">YOUR-EMAIL-HERE</a> or via our <a href="YOUR-SUPPORT-SERVER-LINK">support server</a>.</p>
+<p>See also our <a href="nextgen-terms-of-service.html">Terms of Service</a>.</p>
+
+</main>
+<footer>NextGen Bot &middot; Privacy Policy</footer>
+</div>
+</body>
+</html>
